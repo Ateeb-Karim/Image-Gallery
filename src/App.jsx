@@ -10,7 +10,7 @@ function App() {
   React.useEffect(() => {
     const getData = async () => {
       const data = await fetch(
-        `https://picsum.photos/v2/list?page=${index}&limit=30`,
+        `https://picsum.photos/v2/list?page=${index}&limit=50`,
       ).then((Response) => Response.json());
 
       setImage(data);
