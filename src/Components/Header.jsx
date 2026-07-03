@@ -13,10 +13,9 @@ function Header() {
         </div>
       </div>
       <div className="flex items-center gap-4 text-xs font-medium text-white/70">
-        <div className="bg-white/5 border border-white/10 px-3 py-1.5 rounded-lg hidden sm:block">
-          <span className="text-amber-400 font-semibold">
-            30 images / page
-          </span>
+        <div className="bg-white/5 border border-white/10 px-3 py-1.5 rounded-lg text-[11px] sm:text-xs">
+          Limit:{" "}
+          <span className="text-amber-400 font-semibold">15 items / page</span>
         </div>
       </div>
     </header>
